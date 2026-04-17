@@ -1,4 +1,4 @@
-# 🐧 First Linux Automation Scripts
+# 🐧 Linux Automation Scripts
 Projeto com Scripts em Shell Scripts para automação de tarefas Linux
 
 ## Funcionalidades
