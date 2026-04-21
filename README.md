@@ -1,3 +1,9 @@
+![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=flat&logo=gnu-bash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![DevOps](https://img.shields.io/badge/DevOps-0A0A0A?style=flat&logo=dev.to&logoColor=white)
+
+
+
 # 🐧 Linux Automation Scripts
 Projeto com Scripts em Shell Scripts para automação de tarefas Linux
 
