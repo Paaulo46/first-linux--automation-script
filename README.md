@@ -62,7 +62,7 @@ Script avançado para análise de logs com foco em segurança e observabilidade.
 
 ---
 
-### 🔐 `monitoramento-logs.sh` (DIFERENCIAL)
+### 🔐 `monitoramento-logs.sh` 
 - Processamento avançado de logs
 - Filtragem de erros
 - Redação de dados sensíveis
@@ -74,13 +74,7 @@ Script avançado para análise de logs com foco em segurança e observabilidade.
 
 - Linux
 - Bash Script
-- Ferramentas Unix:
-  - `grep`
-  - `sed`
-  - `find`
-  - `sort`
-  - `uniq`
-  - `wc`
+- Ferramentas Unix
 
 ---
 
@@ -89,3 +83,9 @@ Script avançado para análise de logs com foco em segurança e observabilidade.
 ```bash
 chmod +x script.sh
 ./script.sh
+```
+
+## 🧑‍💻 Autor
+
+Paulo Henrique Gonçalves Bueno
+Estudante de Ciência da Computação focado em DevOps 
