@@ -3,66 +3,89 @@
 ![DevOps](https://img.shields.io/badge/DevOps-0A0A0A?style=flat&logo=dev.to&logoColor=white)
 
 
+# 🚀 Linux Automation Scripts
 
-# 🐧 Linux Automation Scripts
-Projeto com Scripts em Shell Scripts para automação de tarefas Linux
+Coleção de scripts em Bash voltados para **automação de tarefas, monitoramento e manipulação de dados em ambientes Linux**.
 
-## Funcionalidades
+---
 
-- Criação automática de diretórios
-- Criação e manipulação de arquivos
-- Escrita de conteúdo com echo
-- Script de backup com compressão (.tar.gz)
+## 🎯 Objetivo
+
+Este projeto simula cenários reais de infraestrutura e DevOps, incluindo:
 - Automação de tarefas repetitivas
+- Processamento de logs
+- Backup e compressão de arquivos
+- Monitoramento de serviços
 
-## Scripts 
+---
 
-### auto3.sh
-Script que:
-- Cria pasta
-- Entra na pasta
-- Criar o arquivo
-- Escreve o conteúdo
-- Exibe o resultado
+## 🔥 Destaque: Monitoramento de Logs
 
-### backup.sh
-Script que:
-- Cria backup no diretório
-- Gera nome automático com data e hora
-- Compacta em ".tar.gz"
+Script avançado para análise de logs com foco em segurança e observabilidade.
 
-### Compactador.sh
-Script que:
-- Recebe nome do arquivo de saída
-- Recebe múltiplos arquivos como entrada
-- Valida argumentos
-- Compacta tudo em .tar.gz
+### Funcionalidades:
+- 🔍 Identificação de erros (`ERROR`)
+- 🔒 Mascaramento de dados sensíveis (senhas, tokens, API keys)
+- 📊 Geração de estatísticas (linhas e palavras)
+- 📂 Consolidação de logs
+- 🧹 Remoção de duplicados (`sort` + `uniq`)
 
-### monitoramento.sh
-Script que:
-- Verifica se o Nginx está em execução
-- Registra log com data e hora automaticamente
-- Pode ser agendando com cron para rodar a cada 5 minutos
+---
 
-## Exemplo de log gerado
-```
-Nginx está em execução 2026-04-21 13:10:01
-Nginx está em execução 2026-04-21 13:11:01
-```
+## 📜 Scripts disponíveis
 
-## Tecnologias 
+### 📁 `auto3.sh`
+- Navegação entre diretórios
+- Criação de arquivos
+- Escrita e leitura de conteúdo
+
+---
+
+### 💾 `backup.sh`
+- Criação de backups automatizados
+- Nomeação com data e hora
+- Compressão em `.tar.gz`
+
+---
+
+### 📦 `compactador.sh`
+- Compactação de múltiplos arquivos
+- Validação de entrada
+- Geração de `.tar.gz`
+
+---
+
+### 📊 `monitoramento.sh`
+- Verificação de serviço (ex: Nginx)
+- Geração de logs com timestamp
+- Pode ser agendado via `cron`
+
+---
+
+### 🔐 `monitoramento-logs.sh` (DIFERENCIAL)
+- Processamento avançado de logs
+- Filtragem de erros
+- Redação de dados sensíveis
+- Geração de relatórios automatizados
+
+---
+
+## 🛠️ Tecnologias
+
 - Linux
-- Bash / Shell Script
+- Bash Script
+- Ferramentas Unix:
+  - `grep`
+  - `sed`
+  - `find`
+  - `sort`
+  - `uniq`
+  - `wc`
 
-## Como executar
+---
 
-```
-chmod +x nome_do_script.sh
-./nome_do_script
-```
+## ▶️ Como executar
 
-
-## Autor 
-Paulo Henrique Gonçalves
-
-Estudante de Ciência da computação focado em DevOps
+```bash
+chmod +x script.sh
+./script.sh
